@@ -1,3 +1,13 @@
-<p>
-  quote-board works!
-</p>
+<div>
+<ul>
+  <div *ngFor='let quote of quotes; let i=index'>
+      <li>{{quote.name}}</li>
+      <button (click)='toggleDetails(i)'>See more</button>
+
+      <app-quote-details *ngIf="quote.showDetails" [quote]='quote' (isRemove)='removeQuote($event,i)'></app-quote-details>
+  </div>
+  
+</ul>
+
+<p *ngIf='quotes.length > 10'>Quotes are limited to 10, please delete old quotes!</p>
+</div>
