@@ -1,8 +1,9 @@
 <div class="container row" > 
 
   <div class="col-md-7">
-    <h3 class="card card-body" appCardColorChange *ngFor='let quote of quotes; let i=index'>
-        <blockquote>{{quote.name}} : added on {{quote.completeDate|date|uppercase}}</blockquote>
+      
+    <h3 class="card card-body border-right-0 border-left-0" appCardColorChange *ngFor='let quote of quotes; let i=index'>
+        <blockquote>{{quote.name}} : added on {{quote.completeDate|date|uppercase}} </blockquote>
         <button class="btn btn-outline-primary" (click)='toggleDetails(i)'>See more</button>
   
         <app-quote-details style="text-align:right "*ngIf="quote.showDetails" [quote]='quote' (isRemove)='removeQuote($event,i)'></app-quote-details>
