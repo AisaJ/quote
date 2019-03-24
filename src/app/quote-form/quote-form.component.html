@@ -1,6 +1,9 @@
 <div class="container-fluid">
+  <div class="card card-body shadow p-3 mb-5">
+    <h3>Share your favorite quotes below <img src="https://img.icons8.com/material/24/000000/filled-star-filled.png" width="30"></h3>
+  </div>
   <div class="row">
-        <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+        <form (ngSubmit)='submitQuote()' #quoteForm='ngForm' class="shadow p-3 mb-5">
             <div class="form-group">
                 <label for="quote">Enter quote</label>
                 <textarea class="form-control" id="quote" [(ngModel)]="newQuote.name" name="name" #name=ngModel required></textarea>
