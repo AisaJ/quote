@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {Quote} from '../quote'
-import { isPromise } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-quote-board',

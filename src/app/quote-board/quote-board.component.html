@@ -1,6 +1,6 @@
-<div>
+<div > 
 <ul>
-  <div *ngFor='let quote of quotes; let i=index'>
+  <div class="card card-body appCardColorChange" *ngFor='let quote of quotes; let i=index'>
       <li>{{quote.name}}</li>
       <button (click)='toggleDetails(i)'>See more</button>
 
