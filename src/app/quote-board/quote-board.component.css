@@ -5,13 +5,14 @@ app-quote-details{
   font-family: 'ZCOOL XiaoWei', serif;
 }
 blockquote{
-  quotes: "“" "”";
-  
+  padding-left: 1rem;
 }
-
+/* blockquote{
+  quotes: "“" "”";  
+}
 blockquote:before{
   content: open-quote;  
 }
 blockquote:after{
   content: close-quote;
-}
+} */
