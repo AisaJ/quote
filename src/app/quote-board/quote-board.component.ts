@@ -10,10 +10,10 @@ export class QuoteBoardComponent implements OnInit {
 
 
   quotes = [
-    new Quote(1,' Mind over matter. ',' ~Moritmer J.adler',new Date(2019,0,15)),
-    new Quote(2,' Not all counted truly counts. Not all that counts, is counted. ',' ~Albert Einstein',new Date(2019,1,12)),
-    new Quote(3,' Every moment is a fresh beginning. ',' ~T.S Eliot',new Date(2019,1,28)),
-    new Quote(4,' Everything you’ve ever wanted is on the other side of fear. ',' ~George Addair',new Date(2019,2,10)),
+    new Quote(1,' Mind over matter. ',' ~Moritmer J.adler','Aisa',new Date(2019,0,15)),
+    new Quote(2,' Not all counted truly counts. Not all that counts, is counted. ',' ~Albert Einstein','Jemmy',new Date(2019,1,12)),
+    new Quote(3,' Every moment is a fresh beginning. ',' ~T.S Eliot','Jamz',new Date(2019,1,28)),
+    new Quote(4,' Everything you’ve ever wanted is on the other side of fear. ',' ~George Addair','Jamila',new Date(2019,2,10)),
   ]
 
   toggleDetails(index){
