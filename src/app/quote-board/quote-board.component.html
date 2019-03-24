@@ -1,13 +1,22 @@
-<div > 
-<ul>
-  <div class="card card-body appCardColorChange" *ngFor='let quote of quotes; let i=index'>
-      <li>{{quote.name}}</li>
-      <button (click)='toggleDetails(i)'>See more</button>
+<div class="container row" > 
 
-      <app-quote-details *ngIf="quote.showDetails" [quote]='quote' (isRemove)='removeQuote($event,i)'></app-quote-details>
+  <div class="col-md-7">
+    <h3 class="card card-body" appCardColorChange *ngFor='let quote of quotes; let i=index'>
+        <blockquote>{{quote.name}} : added on {{quote.completeDate|date|uppercase}}</blockquote>
+        <button class="btn btn-outline-primary" (click)='toggleDetails(i)'>See more</button>
+  
+        <app-quote-details style="text-align:right "*ngIf="quote.showDetails" [quote]='quote' (isRemove)='removeQuote($event,i)'></app-quote-details>
+    </h3>
+      
+  </div>
+  <div class="row"> 
+    <div class="col-md-5">
+        <app-quote-form></app-quote-form>
+    </div>     
+    
   </div>
   
-</ul>
+
 
 <p *ngIf='quotes.length > 10'>Quotes are limited to 10, please delete old quotes!</p>
 </div>
