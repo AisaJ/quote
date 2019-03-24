@@ -19,7 +19,7 @@ export class QuoteBoardComponent implements OnInit {
   toggleDetails(index){
     this.quotes[index].showDetails = !this.quotes[index].showDetails;
   }
-
+  
   removeQuote(isRemove,index){
     if(isRemove){
       let toRemove=confirm(`This quote will be removed!  ${this.quotes[index].name}`)
