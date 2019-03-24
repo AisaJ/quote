@@ -19,6 +19,12 @@ export class QuoteBoardComponent implements OnInit {
   toggleDetails(index){
     this.quotes[index].showDetails = !this.quotes[index].showDetails;
   }
+  addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    quote.id=quoteLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.unshift(quote)
+  }
   
   removeQuote(isRemove,index){
     if(isRemove){
