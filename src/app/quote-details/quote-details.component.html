@@ -1,6 +1,6 @@
 <div style="text-align:right">
-    <p>{{quote.details}}</p>
-    <p>Posted {{quote.completeDate|dateCount}} days ago by {{quote.user}}</p>
+    <p><strong>{{quote.details}}</strong></p>
+    <p>Posted {{quote.completeDate|dateCount}} days ago <strong>by {{quote.user}}</strong></p>
     <button (click)='quoteRemove(true)' class="btn btn-success">Remove</button>
     
 </div>
