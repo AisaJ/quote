@@ -29,7 +29,7 @@
             <div class="form-group">
               <label for="date">Date today</label> 
               <input type="date" id="date" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required> 
-              <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
+              <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger" >
                 <p>Date is important!</p>
               </div>  
             </div>

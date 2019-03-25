@@ -20,7 +20,11 @@ blockquote:after{
   margin-left: 75%;
   margin-right:5%;
   padding: 0.6rem;
-  
+  color: #000000;
+  border-color: #d3d3d3;  
+}
+.btn-outline-success:hover{
+  background-color:  #d3d3d3;
 }
 button{
   float: left;
