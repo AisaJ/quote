@@ -17,9 +17,9 @@ blockquote:after{
   content: close-quote;
 } */
 .btn-outline-success{
-  margin-left: 42%;
-  margin-right:42%;
-  padding: 1rem;
+  margin-left: 75%;
+  margin-right:5%;
+  padding: 0.6rem;
   
 }
 button{
