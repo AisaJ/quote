@@ -3,7 +3,7 @@
 #### By **Aisa Jemila**
 ## Description
 Github repository: https://aisaj.github.io/create_quote/
-The web application is provides quizboard for computer students to test their knowledge and understanding of the specified language in computer programming. Students are measured according to their scores achieved after the test which is immediately prompted on the screen when they submit. Before the test user personal details are collected, and then directed to the next step of doing the quiz. If a user has failed their test, they can retake the test.
+This application provides a resource of quotes and platform to also share the best quotes you have come across. Users naviagate through the page and are able to view quotes posted with a few description of who's author and date posted. Interestingly, users can delete old quotes on the board and add one of theirs. Moreover users are free to give a thumbs up or down for the quote read here. 
 ## Setup/Installation Requirements
 * Ensure you have a github account
 * On my github repositories, select project name (create_quote)
