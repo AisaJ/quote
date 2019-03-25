@@ -16,3 +16,12 @@ blockquote:before{
 blockquote:after{
   content: close-quote;
 } */
+.btn-outline-success{
+  margin-left: 42%;
+  margin-right:42%;
+  padding: 1rem;
+  
+}
+button{
+  float: left;
+}

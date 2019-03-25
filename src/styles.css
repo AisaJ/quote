@@ -5,5 +5,10 @@ body{
   background: #fafafa;
   font-family: 'ZCOOL XiaoWei', serif;
 }
+footer{
+  background-color: #d3d3d3;
+  padding: 0.5rem 0 0.5rem 0;
+  text-align: center;
 
+}
 

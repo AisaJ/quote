@@ -7,14 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuoteVotesComponent implements OnInit {
 
-  numberOfVotes : number=0;
+  upVotes : number=0;
+  downVotes : number=0;
   
   upVote(){
-    this.numberOfVotes++;
+    this.upVotes++;
   }
 
   downVote(){
-    this.numberOfVotes--;
+    this.downVotes--;
   }
 
   constructor() { }
