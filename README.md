@@ -1,27 +1,65 @@
 # Quotes
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
-
+#### This is a web application for resourcing and sharing quotes that insipires you, March 24, 2019.
+#### By **Aisa Jemila**
+## Description
+Github repository: https://aisaj.github.io/create_quote/
+The web application is provides quizboard for computer students to test their knowledge and understanding of the specified language in computer programming. Students are measured according to their scores achieved after the test which is immediately prompted on the screen when they submit. Before the test user personal details are collected, and then directed to the next step of doing the quiz. If a user has failed their test, they can retake the test.
+## Setup/Installation Requirements
+* Ensure you have a github account
+* On my github repositories, select project name (create_quote)
+* Clone the project
+* Run 'npm install' on cli
+* Lastly ng serve on cli to view application
+## Behavior Driven Development (BDD)
+| General Behavior | Input    | Output   |
+| :------------- | :------------- | :------------- |
+| Users can view more description for the quote. | User clicks the see more buttton.      | Details of the quote shows below; thes are author's name and date of posting. |
+| User can remove quotes from the board. | Clicks the remove button | The particular quote is removed |
+| User can share their own quotes on the board. | User fills in the add quote form and clicks the add quote button | New quote is prepended at the quotes' lists |
+| User can up vote for a quote or down vote | User clicks on either of the like,dislike buttons found on more details | The number of votes changes depending on the button clicked. |
+## Known Bugs
+The application functions as expected. In case you come across any errors or failure of the application, do reach out via email: *aisajemila@gmail.com*
+## Technologies Used
+The application is built on:
+* HTML
+* CSS
+* Typescript
+* Bootstrap
+* Angular framework
+## Support and contact details
+For any queries and suggestions on how I could improve on the application, please contact the support team via **Tel No: +254 707 306910** or **Email: aisajemila@gmail.com**
+Any comment on what you liked or feel should have been placed better is appreciated. Tips and other code tricks are welcomed as well.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### License
+*MIT License*
+
+*Copyright (c) [2019] [AISA JEMILA]*
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*
+Copyright (c) 2019 **Aisa Jemila**
+
+

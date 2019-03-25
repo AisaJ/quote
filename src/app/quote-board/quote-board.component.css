@@ -29,3 +29,9 @@ blockquote:after{
 button{
   float: left;
 }
+div h2{
+  text-align: center;
+  margin-left: 3rem;
+  padding: 1.5rem;
+  font-weight: bold;
+}
