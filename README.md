@@ -2,7 +2,7 @@
 #### This is a web application for resourcing and sharing quotes that insipires you, March 24, 2019.
 #### By **Aisa Jemila**
 ## Description
-Github repository: https://aisaj.github.io/create_quote/
+Github repository: https://aisaj.github.io/quote/
 This application provides a resource of quotes and platform to also share the best quotes you have come across. Users naviagate through the page and are able to view quotes posted with a few description of who's author and date posted. Interestingly, users can delete old quotes on the board and add one of theirs. Moreover users are free to give a thumbs up or down for the quote read here. 
 ## Setup/Installation Requirements
 * Ensure you have a github account
