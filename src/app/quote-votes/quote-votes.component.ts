@@ -15,7 +15,7 @@ export class QuoteVotesComponent implements OnInit {
   }
 
   downVote(){
-    this.downVotes--;
+    this.downVotes++;
   }
 
   constructor() { }
