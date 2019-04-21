@@ -2,7 +2,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 body{
-  background: #fafafa;
+  background: linear-gradient(deepskyblue, tomato);
   font-family: 'ZCOOL XiaoWei', serif;
 }
 footer{
@@ -11,4 +11,3 @@ footer{
   text-align: center;
 
 }
-

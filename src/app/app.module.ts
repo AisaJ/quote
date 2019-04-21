@@ -10,6 +10,7 @@ import { CardColorChangeDirective } from './card-color-change.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteVotesComponent } from './quote-votes/quote-votes.component';
+import { HighlightQuoteDirective } from './highlight-quote.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { QuoteVotesComponent } from './quote-votes/quote-votes.component';
     CardColorChangeDirective,
     DateCountPipe,
     QuoteFormComponent,
-    QuoteVotesComponent
+    QuoteVotesComponent,
+    HighlightQuoteDirective
   ],
   imports: [
     BrowserModule,
